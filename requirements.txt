@@ -1,0 +1,2 @@
+sqlacodegen==2.3.0
+PyMySQL==1.0.2
