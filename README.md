@@ -1,6 +1,6 @@
 # foodsoftstats
 
-More insight into the Foodsoft database.
+More insight into the Foodsoft database. The approach here is (because we're not Ruby programmers) that we're doing a MySQL database dump of the Foodsoft database (live @ [foodsoft.biobulkbende.org](https://foodsoft.biobulkbende.org)) and then loading that dump locally. Then, using [sqlacodegen](https://github.com/agronholm/sqlacodegen) to generate Python-based API bindings so we can write scripts to learn more about what is happening in the database (e.g. what products from which suppliers were never ordered?).
 
 ## Hacking
 
