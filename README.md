@@ -31,3 +31,5 @@ You need to have access to a database which has the Foodsoft schema loaded.
 ```
 $ sqlacodegen "mysql+pymysql://<user>:<password>@<host>/<name>" > bindings.py
 ```
+
+Bindings are already included for now in [bindings.py](./bindings.py).
